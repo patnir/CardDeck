@@ -22,10 +22,4 @@ public class ModelDeck {
             System.out.printf("%c%c\n", CARDS[i%13], SUITS[deck[i]/13]);
         }
     }
-
-    public static void main (String [] arguments) {
-        ModelDeck deck1 = new ModelDeck();
-        deck1.initializeDeck();
-        deck1.printDeck();
-    }
 }
